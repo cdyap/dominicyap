@@ -1,0 +1,577 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,700';
+@import 'https://fonts.googleapis.com/css?family=Sanchez';
+
+/* ========================================================= 
+                    GENERAL STYLING
+===========================================================*/
+
+body {
+    background: #EBF2F5;
+    width: 100%;
+    margin: 0;
+}
+.isflex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========================================================= 
+                            MAIN
+===========================================================*/
+
+
+#home {
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 20vh;
+    padding-bottom: 30vh;
+    background-color: #223D44;
+}
+#home-text {
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    width: 70vw;
+}
+    #home h4, #eservs h4, #clients h4, #footer h4, #org-life h4 {
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 4vw;
+        font-family: "Poppins", Century Gothic;
+        font-weight: 700;
+        margin-bottom: 40px;
+        color: whitesmoke;
+    }
+    #home h4 {
+        -webkit-animation: title-fall 0.9s ease;
+        -moz-animation: title-fall 0.9s ease;
+        animation: title-fall 0.9s ease;
+    }
+    #home img {
+        width: 20vw;
+        margin-bottom: 30px;
+        -webkit-animation: title-fall 0.7s ease;
+        -moz-animation: title-fall 0.7s ease;
+        animation: title-fall 0.7s ease;
+        margin-bottom: 50px;
+        /* position: absolute;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    #home h5 {
+        padding: 0;
+        margin: 0;
+        font-family: "Sanchez", Courier;
+        font-weight: 100;
+        font-size: 2.5vw;
+        color: #F0E9E1;
+        -webkit-animation: title-fall 1.1s ease;
+        -moz-animation: title-fall 1.1s ease;
+        animation: title-fall 1.1s ease;
+    }
+    .sub-intro { padding: 0 !important; }
+        .sub-intro .isflex div {
+            padding: 4vw;
+            align-items: flex-start!important;
+        }
+        .sub-intro h2, .portfolio-details p, #org-life h2 {
+            font-family: "Sanchez", Courier!important;
+            font-size: 1.8vw!important;
+            line-height: 1.4em;
+            top: 0!important;
+        } 
+        .sub-intro .isflex div:nth-of-type(1) { background-color: #F99653; }
+        .sub-intro .isflex div:nth-of-type(2) { background-color: #E6D369; }
+    .introtext { padding: 4vw!important; }
+        .introtext h2 { font-family: "Sanchez", Courier; }
+    .about-slideleft {
+        z-indexwebkit-animation: aboutleft 0.8s ease;
+        -moz-animation: aboutleft 0.8s ease;
+        animation: aboutleft 0.8s ease;
+        visibility: visible!important;
+    }
+    .about-slideright {
+        z-indexwebkit-animation: aboutright 0.8s ease;
+        -moz-animation: aboutright 0.8s ease;
+        animation: aboutright 0.8s ease;
+        visibility: visible!important;
+    }
+    .about-text, #org-life h2  {
+        font-weight: 300;
+        color: #223D44;
+        font-size: 2.2vw;
+        visibility: hidden;
+    }
+        .about-text .text-bold {
+            font-weight: 700;
+            font-size: 3.5vw;
+            font-family: "Poppins", Century Gothic;
+            letter-spacing: 1.5px;
+        }
+        .about-text .bold, .portfolio-details h3, .clients h3 {
+            font-weight: 700;
+            font-family: "Poppins", Century Gothic;
+            letter-spacing: 1px;
+        }
+    #eservs .bold {
+        font-weight: 700;
+        font-family: "Poppins", Century Gothic;
+        letter-spacing: 1.5px;
+    }
+    #about-img {
+        background-image: url('../img/misa-picture.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+        #about-img img{ width: 100%; }
+#org-life {
+    /* background: #3EC9A7; */
+    padding: 10vh 0 0 0;
+    text-align: center;
+    background: -webkit-gradient(linear,left bottom,right top,color-stop(1%,#3EC9A7),color-stop(40%,#3EC9A7),color-stop(40%,#3EC9A7),color-stop(100%,#5DD163));
+    background: -webkit-linear-gradient(45deg,#3EC9A7 1%,#3EC9A7 40%,#3EC9A7 40%,#5DD163 100%);
+    background: -webkit-linear-gradient(45deg, #3EC9A7 1%, #3EC9A7 40%, #3EC9A7 40%, #5DD163 100%);
+    background: linear-gradient(45deg,#3EC9A7 1%,#3EC9A7 40%,#3EC9A7 40%,#5DD163 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3EC9A7', endColorstr='#5DD163', GradientType=1);
+}
+    #org-life .row, #org-life .row div {
+        padding: 0!important;
+        margin: 0!important;
+        height: 100%;
+    }
+    #org-life h2 {
+        margin-bottom: 10vh;
+        text-indent: 60px;
+    }
+    #org-life .row div {
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 200px;
+    }
+        #org-life .row div h2 {
+            margin-top: 130px;
+            margin-bottom: 60px;
+        }
+    #org-life span {
+        /* background-color: white; */
+        color: #3FCC94;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+    .org-life-descs .row:nth-child(1) div{
+        background-image: url('../img/orglife-1.svg');
+    }
+    .org-life-descs .row:nth-child(2) div{
+        background-image: url('../img/orglife-2.svg');
+    }
+    .org-life-descs .row:nth-child(3) div{
+        background-image: url('../img/orglife-3.svg');
+    }
+    .org-life-descs .row:nth-child(4) div{
+        background-image: url('../img/orglife-4.svg');
+    }
+#eservs {
+    background-color: #1E6075;
+    padding: 10vh 0;
+    text-align: center;
+}
+    #eservs h5{
+        font-family: "Sanchez", Courier;
+        color: whitesmoke;
+        font-size: 2.2vw;
+        color: #F0E9E1;
+        text-indent: 50px;
+        margin-bottom: 20px;
+    }
+    #eservs-services h5 { text-indent: 0; }
+    .eservs-icons {
+        max-height: 200px;
+        max-width: 100%;
+        height: auto;
+        margin-top: 80px;
+        line-height: 1.5em;
+    }
+    #eservs-services div {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: center;
+        transition: opacity 0.4s linear;
+        -moz-transition: opacity 0.4s linear; /* Firefox 4 */
+        -webkit-transition: opacity 0.4s linear; /* Safari and Chrome */
+        -o-transition: opacity 0.4s linear; /* Opera */
+        -ms-transition: opacity 0.4s linear; /* Explorer 10 */
+        background-color: #1E6075;
+    }
+        #eservs-services div:nth-child(1) .eservs-icons { fill: #F99653; }
+        #eservs-services div:nth-child(2) .eservs-icons { fill: #69BA98; }
+        #eservs-services div:nth-child(3) .eservs-icons { fill: #E6D369; }
+    .content { opacity: 0; }
+    #eservs-services h5 {
+        margin-top: 50px;
+        font-family: "Poppins", Century Gothic;
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+    }
+    #eservs-services h6 {
+        font-family: "Sanchez", Courier;
+        font-size: 1.5em;
+        color: whitesmoke;
+    }
+#clients {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: #F5FCFF;
+    text-align: center;
+}
+    .services { height: 300px; }
+        .services h5 {
+            font-family: "Poppins", Century Gothic;
+            font-size: 1.4em;
+            color: #223D44;
+            margin-top: 20px;
+        }
+        .services h6 {
+            font-family: "Sanchez", Courier;
+            font-size: 1.2em;
+            color: #676767;
+            margin-bottom: 40px;
+        }
+    .services-icons { height: 80px; }
+    .client-icons {
+        height: 10vh;
+        max-height: 80px;
+        margin: 30px;
+        display: inline-block;
+        opacity: 0.6;
+    }
+    .flex-icons {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    } 
+    #clients h4 {
+        color: #223D44;
+        margin-bottom: 40px;
+    }
+    .icons {
+        height: 20vw;
+        min-height: 150px;
+    }
+    .portfolio { 
+        margin-bottom:20vh; 
+        height: 100%;
+    }
+        .portfolio img {
+            width: 100%;
+        }
+        .portfolio-details {
+            margin-top: 150px;
+        }
+            .portfolio hr { 
+                width: 30px;
+                height: 3px;
+            }
+#footer {
+    background-color: #008D98;
+    padding: 10vh 5vw;
+}  
+    #footer h5{
+        font-size: 2.5em!important;
+        font-family: "Sanchez", Courier;
+        color: #3EC9A7;
+        line-height: 2em;
+    }
+        #footer h5 .typed-cursor{
+            opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+            #footer h5 a , h5 a:visited{
+                color: whitesmoke;
+                text-decoration: none;
+                border-bottom: 3px solid whitesmoke;
+                padding-bottom: 4px;
+            }
+            #footer h5 a:hover {
+                text-decoration: none;
+                border-bottom: none;
+                color: whitesmoke;
+                cursor: pointer;
+            }
+footer {
+    padding-top: 30px;
+    padding-bottom: 150px;
+    background-color: #008D98;
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Poppins", Century Gothic;
+}
+    footer img {
+        max-height: 100px;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    footer h4 { font-weight: 700; }
+    footer .fa {
+        color:  whitesmoke;
+        transition: color 0.2s ease;
+    }
+        footer .fa:hover { color: #3EC9A7; }
+input { width: 100%; }
+form { transition: opacity 0.8s ease; }
+    form label {
+        font-family: "Sanchez", Courier;
+        color: whitesmoke;
+        font-size: 1.5em;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+    form input, form textarea {
+        border: none!important;
+        color: white!important;
+        background-color: #008d98!important;
+        box-shadow: none!important;
+        border-radius: 0!important;
+        border-bottom: 1px solid whitesmoke!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        font-family: "Sanchez", Courier!important;
+        font-size: 2em!important;
+        font-weight: 700!important;
+        text-indent:8px!important;
+    }
+    form button, form button:active {
+        margin-top: 30px;
+        font-family: "Poppins", Century Gothic;
+        color: #008d98;
+        background-color: whitesmoke;
+        font-weight: 300;
+        border: none;
+        font-size: 1.5em;
+        padding: 10px 20px;
+    }
+    form button:active {
+        background: #3EC9A7;
+        box-shadow: none!important;
+        outline: 0;
+    }
+
+/* ========================================================= 
+                    TYPEDJS & TRANSITIONS
+===========================================================*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #3EC9A7;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes title-fall{
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    60% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes title-fall{
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    60% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes title-fall{
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    60% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes aboutleft{
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes aboutleft{
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes aboutleft{
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes aboutright{
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes aboutright{
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes aboutright{
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* ========================================================= 
+                    MEDIA QUERIES
+===========================================================*/
+
+@media (max-width: 767px) {
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+    }
+    #home h4, #eservs h4, #clients h4, #footer h4, #org-life h4 {
+        padding: 0;
+        font-size: 2.7em;
+    }
+    #home img { width: 200px; }
+    #home h5, #eservs h5 {
+        padding: 0;
+        margin: 0;
+        font-family: "Sanchez", Courier;
+        font-weight: 100;
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        line-height: 1.5em;
+    }
+    #eservs-services h5 {
+        font-family: "Poppins", Century Gothic;
+        font-weight: 700;
+    }
+    .about-text .text-bold {
+        font-size: 2.1em;
+        font-family: "Poppins", Century Gothic;
+    }
+    .about-text,.sub-intro h2 {
+        font-size: 1.5em!important;
+        text-align: center!important;
+        color: #223D44;
+    }
+    #org-life h2 {
+        font-size: 1.5em!important;
+        color: #223D44;
+    }
+    #eservs-services div {
+      padding: 3vh 0;
+      text-align: center;
+      color: #223D44;
+    }
+    #about-img { height: 50vh; }
+    #about { padding-top: 0; }
+    .services-icons { height: 80px; }
+    .eservs-icons {
+        height: 140px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .portfolio-details {
+        margin-top: 20px;
+        text-align: center;
+    }
+        .portfolio-details hr {
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+        .portfolio-details p {
+            font-size: 1.5em!important;
+        }
+    .client-icons { height: 9vh; }
+}
