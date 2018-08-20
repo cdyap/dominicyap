@@ -18,9 +18,10 @@ a:hover {
 h1 {
 	color: #125358;
 	font-size: 6em;
+	font-weight:700;
 }
 h3 { font-size: 3.5em; }
-h5 {font-size: 3em;}
+h5 {font-size: 3em;font-weight: 400;}
 p {font-size: 1.75em;}
 
 
