@@ -24,7 +24,7 @@
     <link rel="shortcut icon" href="img/favicon.png">
     <!-- Custom CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/misa_style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <!-- Latest compiled and minified CSS -->
     
