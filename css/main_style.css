@@ -15,8 +15,22 @@ a:hover {
 	text-decoration: none;
 }
 .arvo { font-family:  'Arvo', serif; }
+.header a.btn {
+	background:#0433FF;
+	color:white;
+	margin-top:50px;
+	border-radius:0;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+}
+.header a.btn:focus,.header a.btn:active {
+	outline:none;
+	box-shadow:none;
+}
 h1 {
-	color: #125358;
+	color: #484848;
 	font-size: 6em;
 	font-weight:700;
 }
